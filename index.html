@@ -7,11 +7,26 @@
   <title>Contact</title>
 </head>
 <body>
-  <form action="https://formspree.io/f/xgernvrd" method="post">
-    <input type="text" name="name" placeholder="your name">
-    <input type="email" name="email" placeholder="your email address">
-    <input type="text" name="message" placeholder="your message">
-    <button type="submit">Submit</button>
-  </form>
+  <form
+  action="https://formspree.io/f/xgernvrd"
+  method="POST"
+  >
+  <label>
+    Your Name:
+    <input type="text" name="name">
+  </label>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
 </body>
 </html>
